@@ -30,21 +30,23 @@
         app:layout_constraintStart_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="143dp"
+        android:layout_height="44dp"
         android:layout_marginTop="168dp"
+        android:background="@drawable/rounded_button"
         android:backgroundTint="#2C2B47"
         android:fontFamily="@font/acme"
         android:text="Go Premium"
         android:textAllCaps="false"
+        android:textColor="#FFF1EF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView6"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.213" />
+        app:layout_constraintVertical_bias="0.246" />
 
     <TextView
         android:id="@+id/textView5"
@@ -73,6 +75,7 @@
         android:id="@+id/textView13"
         android:layout_width="54dp"
         android:layout_height="18dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="4dp"
         android:background="@drawable/rounded_corner_blue"
         android:fontFamily="@font/acme"
@@ -81,12 +84,13 @@
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="@+id/textView5"
         app:layout_constraintTop_toTopOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.09" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="54dp"
         android:layout_height="18dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/rounded_corner_pink"
         android:fontFamily="@font/acme"
         android:text="Yearly"
@@ -101,6 +105,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/acme"
         android:text="$11.99"
+        android:layout_marginTop="16dp"
         android:textColor="#2C2B47"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/textView18"
@@ -162,14 +167,14 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView5"
         app:layout_constraintEnd_toStartOf="@+id/textView21"
-        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintHorizontal_bias="0.846"
         app:layout_constraintStart_toStartOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="44dp"
         android:layout_marginBottom="24dp"
         android:fontFamily="@font/acme"
         android:text="per year"
@@ -191,7 +196,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView16"
-        app:layout_constraintVertical_bias="0.714" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView23"
@@ -205,13 +210,13 @@
         app:layout_constraintBottom_toTopOf="@+id/textView25"
         app:layout_constraintEnd_toEndOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView16"
-        app:layout_constraintVertical_bias="0.636" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="28dp"
         android:fontFamily="@font/acme"
         android:text="$59.99"
         android:textColor="#87869E"
@@ -226,7 +231,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="52dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="28dp"
         android:fontFamily="@font/acme"
         android:text=" per year"
         android:textColor="#B9B8C6"
