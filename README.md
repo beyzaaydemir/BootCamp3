@@ -1,6 +1,6 @@
 # BootCamp3_Layout_Design
 I downloaded a design design and imported it into the figma. I tried to get the most suitable view for the work you added to the figma by making layout designs. 
-There are three screen designs in my project. You can view the screenshots below.
+There are three screen designs in my project. You can view the screenshots below. Databinding is used.
 
 <table>
 <tr>
